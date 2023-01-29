@@ -2,14 +2,18 @@
   "name": "foru",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nguyenhungkhanh.github.io/foru/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "firebase": "^9.16.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
