@@ -284,7 +284,7 @@ export default function Finish () {
   return (
     <div>
       <canvas id="pinkboard"></canvas>
-      <img src="u-avatar.jpg" />
+      <img src="u-avatar.jpg" style={{ maxWidth: "100vw" }} />
     </div>
   )
 }
