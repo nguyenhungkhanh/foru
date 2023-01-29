@@ -2,7 +2,7 @@
   "name": "foru",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nguyenhungkhanh.github.io/foru/",
+  "homepage": "https://nguyenhungkhanh.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
